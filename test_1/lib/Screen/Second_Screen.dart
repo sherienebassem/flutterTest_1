@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 
-class SocundScreen extends StatefulWidget {
+class SecondScreen extends StatefulWidget {
   final Widget child;
 
-  SocundScreen({Key key, this.child}) : super(key: key);
+  SecondScreen({Key key, this.child}) : super(key: key);
 
-  _SocundScreenState createState() => _SocundScreenState();
+  _SecondScreenState createState() => _SecondScreenState();
 }
 
-class _SocundScreenState extends State<SocundScreen> {
+class _SecondScreenState extends State<SecondScreen> {
   @override
   Widget build(BuildContext context) {
 

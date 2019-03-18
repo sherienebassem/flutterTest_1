@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:test_1/Screen/First_Screen.dart';
-import 'package:test_1/Screen/Socund_Screen.dart';
+import 'package:test_1/Screen/Second_Screen.dart';
+
 
 void main() => runApp(MyApp());
 
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: ("MyApp"),
       debugShowCheckedModeBanner: false,
-      home: SocundScreen(),
+      home: SecondScreen(),
     );
   }
 }
